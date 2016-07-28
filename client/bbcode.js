@@ -1121,8 +1121,8 @@ var XBBCODE = (function() {
       ret.html = '<div style="white-space:pre;">' + ret.html + '</div>';
     }
 
-    ret.html = ret.html.replace("&#91;", "["); // put ['s back in
-    ret.html = ret.html.replace("&#93;", "]"); // put ['s back in
+    ret.html = ret.html.replace(/&#91;/g, "["); // put ['s back in
+    ret.html = ret.html.replace(/&#93;/g, "]"); // put ['s back in
 
     ret.html = ret.html.replace(/&lt;/g, "<"); // unescape HTML tag brackets
     ret.html = ret.html.replace(/&gt;/g, ">"); // unescape HTML tag brackets
