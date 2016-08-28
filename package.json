@@ -1,6 +1,6 @@
 {
   "name": "ept-bbcode-parser",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "BBCode parser for Epochtalk",
   "main": "index.js",
   "scripts": {
